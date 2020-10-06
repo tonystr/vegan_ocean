@@ -2,7 +2,39 @@
 body, html {
     margin: 0;
     padding: 0;
+    font-family: 'Varela Round', sans-serif;
+}
 
-    font-size: 5rem;
-    color: #00aaff;
+header {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-image: url("oceantop.png");
+    background-repeat: no-repeat;
+    background-color: #00aaff;
+}
+
+header h1 {
+    color: #50ffaa;
+    font-size: 5.2rem;
+    font-family: 'Fredoka One', 'Varela Round', cursive;
+    margin-bottom: 0;
+}
+
+header .brand {
+    color: #ffffff;
+    font-size: 1.5rem;
+    padding-bottom: 3rem;
+}
+
+#unsdg {
+    min-height: 80vh;
+    display: grid;
+    place-items: center;
+    background-color: #0a97d9;
+    color: #ffffff;
+}
+
+#recipes {
+    padding: 4rem;
 }
