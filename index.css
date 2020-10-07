@@ -29,10 +29,14 @@ header .brand {
 
 #unsdg {
     min-height: 80vh;
-    display: grid;
-    place-items: center;
-    background-color: #0a97d9;
+    display: flex;
+    justify-content: center;
+    background-color: #00aaff;
     color: #ffffff;
+    align-items: center;
+}
+
+#unsdg img {
 }
 
 #recipes {
