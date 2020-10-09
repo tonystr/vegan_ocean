@@ -28,6 +28,14 @@ header .brand {
     padding-bottom: 3rem;
 }
 
+footer {
+    color: #ffffff;
+    background-color: #070a12;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
 #unsdg {
     padding: 2rem;
     display: flex;
@@ -42,6 +50,7 @@ header .brand {
      max-width: 80%;
 }
 
+footer a,
 #unsdg a {
     color: #9ff792;
 }
@@ -50,7 +59,7 @@ header .brand {
     border-radius: 3px;
 }
 
-#unsdg div {
+#unsdg > div {
     font-size: 1.4rem;
     width: 50%;
     padding: 0 3rem;
@@ -58,6 +67,25 @@ header .brand {
 
 #recipes {
     padding: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#recipes img {
+    width: 400px;
+    max-width: 95vw;
+    border-radius: 3px;
+}
+
+#recipes > div {
+    width: 400px;
+    max-width: 95vw;
+    padding: 14px;
+    border: 1px solid #efceab;
+    color: #15152b;
+    border-radius: 3px;
+    margin: 2rem;
 }
 
 @media(max-width: 800px) {
