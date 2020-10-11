@@ -7,12 +7,19 @@ body, html {
 
 header {
     min-height: 100vh;
-    display: grid;
-    place-items: center;
+
     background-image: url("oceantop.png");
     background-repeat: no-repeat;
     background-color: #00aaff;
     background-size: contain;
+
+    /* Flex polyfill */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Grid Center */
+    display: grid;
+    place-items: center;
 }
 
 header h1 {
@@ -34,6 +41,10 @@ footer {
     padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
+}
+
+footer details {
+    text-align: right;
 }
 
 #unsdg {
